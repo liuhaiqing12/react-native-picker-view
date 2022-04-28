@@ -3,8 +3,8 @@
 集成：在RN端引用 
 
 const RNPickerView = requireNativeComponent('RNPickerView', Picker);
-//传入对应参数
-<RNPickerView
+      //传入对应参数
+      <RNPickerView
         style={styles.picker}
         minYear={minYear}
         maxYear={maxYear}
